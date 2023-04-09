@@ -1,13 +1,61 @@
-
 * {
   font-family: roboto;
 }
 
+.flex-homebar {
+  
+  inline-size: block;
+display: inline-flex;
+flex-wrap: nowrap;
+position: relative;
+white-space: nowrap;
+top: 175px;
+left: 43%;
+z-index: 1;
+}
 
+.home {
+margin-right: 10px;
+
+
+}
+
+.about {
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+cursor: pointer;
+background-color: black;
+color: white;
+}
+
+.portfolio {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+}
+
+.header {
+  display: inline-block;
+  top: 500px;
+  left: 25%;
+  margin-bottom: -200px;
+  position: relative;
+  z-index: 1;
+}
 
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
+  position: absolute;
+  height: 100vh;
+  background-size: cover;
 }
 
 .background {
