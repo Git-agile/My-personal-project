@@ -15,7 +15,6 @@ display: inline-flex;
 flex-wrap: nowrap;
 position: relative;
 white-space: nowrap;
-top: 10%;
 left: 43%;
 z-index: 1;
 color: white;
@@ -23,8 +22,10 @@ color: white;
 
 .home {
 margin-right: 10px;
+}
 
-
+.home-text{
+  margin-top: 10px;
 }
 
 .about {
@@ -69,6 +70,17 @@ padding-top: 10px;
 padding-bottom: 10px;
 }
 
+.contact {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+}
+
 .about-text {
   margin-right: 10px;
   margin-top: 10px
@@ -86,6 +98,11 @@ color: white;
 .portfolio-text {
   color: white;
   margin-top: 10px;
+}
+
+.contact-text {
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 @media(max-width: 768px){
