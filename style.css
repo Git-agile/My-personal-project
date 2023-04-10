@@ -10,7 +10,6 @@ background-repeat: no-repeat;
 }
 
 .flex-homebar {
-
   inline-size: block;
 display: inline-flex;
 flex-wrap: nowrap;
@@ -19,6 +18,7 @@ white-space: nowrap;
 top: 10%;
 left: 43%;
 z-index: 1;
+color: white;
 }
 
 .home {
@@ -59,6 +59,28 @@ color: white;
 
 .landing-h1 {
   color: white;
+}
+
+.about-text {
+
+}
+
+.home-button {
+color: white;
+background-color: black;
+margin-right: 5px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.about-text {
+  margin-right: 10px;
+  margin-top: 10px
+}
+
+.a-div {
+margin-top: 100px;
+color: white;
 }
 
 @media(max-width: 768px){
