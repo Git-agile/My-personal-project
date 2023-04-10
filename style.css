@@ -16,7 +16,7 @@ display: inline-flex;
 flex-wrap: nowrap;
 position: relative;
 white-space: nowrap;
-top: 175px;
+top: 10%;
 left: 43%;
 z-index: 1;
 }
@@ -50,10 +50,14 @@ color: white;
 
 .header {
   display: inline-block;
-  top: 500px;
+  top: 300px;
   left: 25%;
   margin-bottom: -200px;
   position: relative;
   z-index: 1;
+}
+
+.landing-h1 {
+  color: white;
 }
 
