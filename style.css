@@ -4,7 +4,7 @@
 
 
 body {
-background-image: url(https://img.freepik.com/free-vector/abstract-business-professional-background-banner-design-multipurpose_1340-16858.jpg?w=1380&t=st=1681063114~exp=1681063714~hmac=1e9521e9b35ce3da7144713476cb110e1afc3faa9ab709c9eb687126605230a9);
+background-image: url(https://wallpapercave.com/wp/wp7453801.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 }
@@ -49,17 +49,17 @@ color: white;
   padding-right: 5px;
 }
 
-.header {
-  display: inline-block;
-  top: 300px;
-  left: 25%;
-  margin-bottom: -200px;
-  position: relative;
-  z-index: 1;
-}
+
 
 .landing-h1 {
   color: white;
+  display: inline-block;
+  margin-top: 20%;
+  margin-left: 40%;
+  text-align: center;
+  
+  position: relative;
+  z-index: 1;
 }
 
 .home-button {
@@ -105,8 +105,13 @@ color: white;
   margin-left: 10px;
 }
 
+p {
+  color: white;
+}
+
+
 @media(max-width: 768px){
-  *{
+  .flex-homebar{
     margin: 0 auto !important;
     padding: 0 !important;
   }
